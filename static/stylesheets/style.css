@@ -31,6 +31,14 @@ a:hover {
 h1 {
 	font-weight: bold;
 	font-size: 2em;
+	transition-timing-function: ease;
+	-webkit-transition: color 2s;
+	-moz-transition: color 2s;
+	transition: color 2s;
+}
+
+h1:hover {
+	color: red;
 }
 
 .leftHalf {

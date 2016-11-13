@@ -1,11 +1,11 @@
 import os
-from flask import Flask, render_template, redirect, request
+from flask import Flask, render_template, redirect, request, url_for
 import jinja2
 import cf_deployment_tracker
 
 cf_deployment_tracker.track()
 
-app = Flask(__name__, template_folder='static', static_url_path = '/static', static_folder='static')
+app = Flask(__name__, template_folder='templates', static_url_path = '/static', static_folder='static')
 PORT = int(os.getenv('PORT', 8000))
 @app.route("/")
 def index():
