@@ -8,7 +8,6 @@ body, html {
 	margin: 0 auto;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
 		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #ffffff;
 }
 
 a {
@@ -93,4 +92,8 @@ th, td {
 pre {
 	padding: 0;
 	margin: 0;
+}
+div#map {
+	height: 400px;
+	width: 100%;
 }
