@@ -16,7 +16,7 @@ def index():
     if request.method == 'POST':
         subject = request.form['subject']
         clusters = twittery.watson_clusters(str(subject))
-        json_clusters = json.dumps(clusters)
+        json_clusters = json.dumps(list(clusters.values()))
         return render_template("map.html", clusters = json_clusters)
     return render_template("index.html")
 

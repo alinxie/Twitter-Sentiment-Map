@@ -20,6 +20,18 @@
 	</form> -->
   <div id = 'map'></div>
   <script src = "{{ url_for('static', filename='scripts/mapscript.js') }}"></script>
+  <script type = text/javascript>
+  	var clusters = JSON.parse({{clusters}});
+  	for (var i = 0; i < clusters.length, i ++) {
+  		var currCluster = clusters[i];
+  		var location = currCluster.location;
+  		var latlng = new google.maps.LatLng(location[0], location[1]);
+  		var marker = new google.maps.Marker({
+			position: latlng,
+			map: map,
+  		});
+  	}
+  </script>
   <p>{{clusters}}</p>
 </body>
 
