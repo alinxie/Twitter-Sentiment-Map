@@ -2,7 +2,7 @@
  * This file provides css styles.
  */
 body, html {
-	background-color: #3b4b54;
+	background-color: #00C78C;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -96,4 +96,23 @@ pre {
 div#map {
 	height: 400px;
 	width: 100%;
+}
+
+form{
+	text-align: center;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+	top: 50%;
+	right: 0;
+	left: 0;
+	position: absolute;
+}
+
+#submit_button{
+
+}
+
+#text_box{
+
 }

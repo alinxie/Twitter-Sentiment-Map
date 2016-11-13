@@ -79,6 +79,7 @@ function initMap() {
         fillOpacity: 0.35,
         map: map,
         center: location,
+        editable: true,
         radius: 99999
       });
   }

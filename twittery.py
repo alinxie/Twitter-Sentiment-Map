@@ -58,7 +58,5 @@ def main():
 #def find_centroid(cluster):
 #    return [mean([x[0] for x in cluster]), mean([x[1] for x in cluster])]
 
-while True:
-    main()
-
-
+# while True:
+#     main()

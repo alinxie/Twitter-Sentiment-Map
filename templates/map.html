@@ -5,21 +5,20 @@
 	<title>Dank Tweets</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
-	<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiCpyAFJU7BtKPinGJHgRC8fhNV_quTGY&callback=initMap">	</script> -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiCpyAFJU7BtKPinGJHgRC8fhNV_quTGY&callback=initMap">	</script>
 </head>
 <body>
-
   <!-- <img src="{{url_for('static', filename = 'images/kemba-funny.jpeg')}}" alt="KEMBA" style="width:304px;height:228px;"> -->
 	<!-- <br>
 		<a class="twitter-timeline"  href="https://twitter.com/hashtag/america" data-widget-id="797582666010796032">#america Tweets</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</br> -->
-	<form method="POST" action="">
-		<br>Type a subject or topic to sort by: </br>
-		<input id="text_box" type="text" name="subject">
-		<input id="submit_button" type="submit" value="Submit">
-	</form>
-
+	<!-- <form method="POST" action="">
+		<input type="text" name="subject">
+		<input type="submit" value="Submit">
+	</form> -->
+  <div id = 'map'></div>
+  <script src = "{{ url_for('static', filename='scripts/mapscript.js') }}"></script>
 </body>
 
 </html>
