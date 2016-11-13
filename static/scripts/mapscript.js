@@ -29,7 +29,7 @@ console.log("saving radius of " + document.getElementById('radius').value);
     actualRadius = document.getElementById('radius').value;
   }
 
-
+var map
 
 function initMap() {
   // Create the map.
@@ -45,7 +45,7 @@ function initMap() {
     }],
               {name:'Styled Map'}
   );
-  var map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: {lat: 37.090, lng: -95.712},
     mapTypeId: 'styled_map'
@@ -80,7 +80,7 @@ function initMap() {
         map: map,
         center: location,
         editable: true,
-        radius: 99999
+        radius: 10
       });
   }
 
