@@ -44,7 +44,7 @@ def watson_clusters(topic):
     tweet = []
     interval = 5*60
     start_time = time.time()
-    n = 50
+    n = 100
     while n > 0:
         item = next(r)
         if 'text' in item:
@@ -54,7 +54,7 @@ def watson_clusters(topic):
                 print(new_item)
         n -= 1
     tweet_locations = locations(tweet)
-    clusters = cluster(tweet_locations, 3)
+    clusters = cluster(tweet_locations, 5)
     cluster_text = combine_text(tweet,clusters)
     return watsonize(cluster_text)
 def locations(tweets):
@@ -90,7 +90,7 @@ def watsonize(cluster_text):
     i = 1
     for center, data in cluster_text.items():
         s = data['string']
-        emotion_data = tone_analyzer.tone(text = s, tones = 'emotion', sentences = False)
+        emotion_data = tone_analyzer.tone(text = s, sentences = False)
         final_clusters['cluster'+str(i)] = {'location': center, 'count': data['count'], 'emotion': emotion_data, 'inertia': data['inertia']}
         i += 1
     return final_clusters
