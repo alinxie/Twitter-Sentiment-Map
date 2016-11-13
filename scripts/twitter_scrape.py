@@ -1,22 +1,18 @@
-from tweepy import Stream
-from tweepy import OAuthHandler
-from tweepy.streaming import StreamListener
+from TwitterAPI import TwitterAPI
 
 ckey="pGb1oXyiZIEdQcDTN9a3d558P"
 csecret="JmDv2GkfJU5jEUvLLcdMMxs9Jt9xVvHzDeRlAcgpGVURCllfYS"
 atoken="4213484361-cUiKplc8SVdYkKvx6CrUFBHGzAFlyaHNJBbLHZ6"
 asecret="f767WjWbFTd0BzQyPChICAfc9rIvxDIJmWlxTD3sfTnov"
 
-class listener(StreamListener):
+# Update this to be dynamic and take user input
+search_term = "lambda x: x"
 
-    def on_data(self, data):
-        print(data)
-        return True
-    def on_error(self, status):
-        print(status)
+api = TwitterAPI(ckey, csecret, atoken, asecret)
+r = api.request('search/tweets', {'q': search_term})
 
-auth = OAuthHandler(ckey, csecret)
-auth.set_access_token(atoken, asecret)
-
-twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["lambda x: x"])
+for tweets in r:
+    print(tweets['text'])
+    if  tweets['coordinates'] != None:
+        print('\n' + tweets['coordinates'])
+    print('\n')
