@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, redirect, request
 import jinja2
 
@@ -8,4 +9,4 @@ def index():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(port = PORT)
+    app.run(host='0.0.0.0', port = PORT)
