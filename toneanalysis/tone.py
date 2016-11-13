@@ -12,7 +12,8 @@ def main():
     
     tones = open('output.txt', 'w')
 
-    for s in tweets:
-        tones.write(json.dumps(tone_analyzer.tone(s), indent=2))
+    #for s in tweets:
+    s = tweets.read()
+    tones.write(json.dumps(tone_analyzer.tone(text = s, tones = 'emotion', sentences = False), indent=2))
 
 main()
