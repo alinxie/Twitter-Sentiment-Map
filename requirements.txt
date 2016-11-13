@@ -5,3 +5,4 @@ TwitterAPI==2.4.2
 watson-developer-cloud==0.22.0
 sklearn==0.0
 numpy==1.11.2
+scipy==0.15.1
