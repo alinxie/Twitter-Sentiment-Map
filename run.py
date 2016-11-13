@@ -5,7 +5,7 @@ import cf_deployment_tracker
 
 cf_deployment_tracker.track()
 
-app = Flask(__name__, template_folder='templates', static_folder='static')
+app = Flask(__name__, template_folder='templates') #, static_folder='static'
 PORT = int(os.getenv('PORT', 8000))
 
 @app.route("/")
