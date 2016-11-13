@@ -3,13 +3,15 @@ api = TwitterAPI("pGb1oXyiZIEdQcDTN9a3d558P", "JmDv2GkfJU5jEUvLLcdMMxs9Jt9xVvHzD
 
 def main():
     r = api.request('statuses/sample').get_iterator()
+    tweet = []
     for item in r:
         if 'text' in item:
             if item['coordinates'] != None:
-                print(item['text'], item['coordinates']['coordinates'])
+                tweet.append([item['text'], item['coordinates']['coordinates']])
+                print(tweet[len(tweet)-1])
             elif item['place'] != None:
-                print(item['text'], item['place'])
-            else:
-                print('hello!')
+                center = [sum(x)/4 for x in zip(item['place']['bounding_box']['coordinates'][0][0],item['place']['bounding_box']['coordinates'][0][1],item['place']['bounding_box']['coordinates'][0][2],item['place']['bounding_box']['coordinates'][0][3])]
+                tweet.append([item['text'], center])
+                print(tweet[len(tweet)-1])
 
 main()
