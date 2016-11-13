@@ -6,7 +6,7 @@ atoken="4213484361-cUiKplc8SVdYkKvx6CrUFBHGzAFlyaHNJBbLHZ6"
 asecret="f767WjWbFTd0BzQyPChICAfc9rIvxDIJmWlxTD3sfTnov"
 
 # Update this to be dynamic and take user input
-search_term = "america"
+search_term = "lambda x: x"
 
 api = TwitterAPI(ckey, csecret, atoken, asecret)
 r = api.request('search/tweets', {'q': search_term})
