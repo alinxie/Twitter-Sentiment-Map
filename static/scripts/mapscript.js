@@ -23,13 +23,13 @@ var citymap = {
 
 var actualRadius = 0;
 
-console.log("saving radius of " + document.getElementById('radius').value);
+// console.log("saving radius of " + document.getElementById('radius').value);
 
   if (document.getElementById('radius') !== null) {
     actualRadius = document.getElementById('radius').value;
   }
 
-var map
+var map;
 
 function initMap() {
   // Create the map.
