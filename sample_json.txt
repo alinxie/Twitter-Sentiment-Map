@@ -1,0 +1,1802 @@
+{
+  "cluster6": {
+    "inertia": 194.46986559689367,
+    "count": 1,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.074422
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.029302
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.19133
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.742629
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.018543
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      40.8257625,
+      -96.6851982
+    ]
+  },
+  "cluster8": {
+    "inertia": 2746.339548270212,
+    "count": 15,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.023074
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.006535
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.005935
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.964041
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.007489
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      41.68551417933333,
+      -87.77781067933333
+    ]
+  },
+  "cluster26": {
+    "inertia": 6332.253076245903,
+    "count": 39,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.038536
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.001574
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.002562
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.944727
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.012724
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      40.60917782307693,
+      -74.19979758179487
+    ]
+  },
+  "cluster22": {
+    "inertia": 1653.5542101161423,
+    "count": 11,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.043734
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.016507
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.196782
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.710066
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.039864
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      25.919589192727273,
+      -80.3746504609091
+    ]
+  },
+  "cluster34": {
+    "inertia": 1049.3337205403127,
+    "count": 6,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.058479
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.007278
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.026735
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.91051
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.015967
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      35.677935966666666,
+      -87.98352655
+    ]
+  },
+  "cluster17": {
+    "inertia": 664.0563210890125,
+    "count": 4,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.071723
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.005635
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.042167
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.910346
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.007051
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      31.9402381525,
+      -85.448976235
+    ]
+  },
+  "cluster32": {
+    "inertia": 1080.659763848852,
+    "count": 6,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.016537
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.001705
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.012933
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.969478
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.004438
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      29.006597049999996,
+      -98.34726045
+    ]
+  },
+  "cluster4": {
+    "inertia": 2284.4691754543396,
+    "count": 13,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.018843
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.004152
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.027599
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.928373
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.026488
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      38.89540273846154,
+      -85.36257799923077
+    ]
+  },
+  "cluster11": {
+    "inertia": 1244.958520655318,
+    "count": 8,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.065139
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.026028
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.062044
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.876876
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.005549
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      28.223607645,
+      -81.81550125875
+    ]
+  },
+  "cluster3": {
+    "inertia": 208.72377967064511,
+    "count": 1,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.119594
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.051775
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.073237
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.355445
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.487349
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      46.81,
+      -100.78
+    ]
+  },
+  "cluster1": {
+    "inertia": 2315.465571806586,
+    "count": 14,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.029207
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.00091
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.0178
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.946921
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.008408
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      35.33500581142857,
+      -81.61159606428572
+    ]
+  },
+  "cluster38": {
+    "inertia": 186.94219903843123,
+    "count": 1,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.037696
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.012209
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.039468
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.874913
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.071664
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      24.78194752,
+      -107.40614911
+    ]
+  },
+  "cluster37": {
+    "inertia": 1537.1405784209628,
+    "count": 9,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.026677
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.003855
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.158415
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.832232
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.003535
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      40.480870957777775,
+      -80.28813544222223
+    ]
+  },
+  "cluster16": {
+    "inertia": 1506.8900208285372,
+    "count": 7,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.053901
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.008962
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.034559
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.790961
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.132672
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      33.890680304285716,
+      -118.32803799285715
+    ]
+  },
+  "cluster25": {
+    "inertia": 935.9598209464648,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.075851
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.007299
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.016636
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.909801
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.007324
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      43.4774065,
+      -88.88673772
+    ]
+  },
+  "cluster12": {
+    "inertia": 204.9856510451997,
+    "count": 1,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.026613
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.008025
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.102531
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.880421
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.023338
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      36.7280583,
+      -108.2186856
+    ]
+  },
+  "cluster28": {
+    "inertia": 1136.4867280775845,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.147795
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.05554
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.060847
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.769463
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.028092
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      38.267082314,
+      -122.455021574
+    ]
+  },
+  "cluster23": {
+    "inertia": 1042.6377335396219,
+    "count": 6,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.064444
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.013547
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.101633
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.802855
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.066265
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      43.340634998333336,
+      -79.534202755
+    ]
+  },
+  "cluster24": {
+    "inertia": 1567.8912194690984,
+    "count": 8,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.085097
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.007395
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.040523
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.865848
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.00985
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      45.0743983225,
+      -93.50889272124999
+    ]
+  },
+  "cluster14": {
+    "inertia": 378.48349245535115,
+    "count": 2,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.070629
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.004692
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.034858
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.909276
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.020214
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      33.0109107,
+      -100.8029914
+    ]
+  },
+  "cluster21": {
+    "inertia": 1740.0339731922384,
+    "count": 10,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.140539
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.003883
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.094372
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.747222
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.019512
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      40.160754325,
+      -82.877618091
+    ]
+  },
+  "cluster18": {
+    "inertia": 436.3809826320902,
+    "count": 2,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.053754
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.01857
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.200079
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.757413
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.015435
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      45.7832856,
+      -108.5006904
+    ]
+  },
+  "cluster27": {
+    "inertia": 562.1473427861118,
+    "count": 3,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.042767
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.030463
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.1897
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.625897
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.17509
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      35.42141499666666,
+      -97.07793705666667
+    ]
+  },
+  "cluster19": {
+    "inertia": 846.8044489281084,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.157082
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.017718
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.066359
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.74664
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.051204
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      30.300853372,
+      -89.453252378
+    ]
+  },
+  "cluster29": {
+    "inertia": 1436.8341038263757,
+    "count": 7,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.008141
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.000734
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.002885
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.985489
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.004643
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      33.32425947428572,
+      -111.81786392142857
+    ]
+  },
+  "cluster10": {
+    "inertia": 2120.643816863907,
+    "count": 12,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.021126
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.02434
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.022748
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.935665
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.001858
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      29.952554209166667,
+      -95.00652495166666
+    ]
+  },
+  "cluster40": {
+    "inertia": 2175.7407657563626,
+    "count": 13,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.02533
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.002207
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.017016
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.940242
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.020629
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      34.00958352615385,
+      -84.33493247
+    ]
+  },
+  "cluster13": {
+    "inertia": 2405.5821854851074,
+    "count": 15,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.080151
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.001947
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.054836
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.872893
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.003404
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      35.850124012,
+      -77.546630642
+    ]
+  },
+  "cluster33": {
+    "inertia": 797.4120033299123,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.057589
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.032015
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.02964
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.908686
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.018313
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      32.098542356,
+      -80.669733544
+    ]
+  },
+  "cluster15": {
+    "inertia": 1923.9331638406102,
+    "count": 12,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.072918
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.002225
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.07106
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.858476
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.005423
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      42.4622644175,
+      -70.90369362083334
+    ]
+  },
+  "cluster2": {
+    "inertia": 1648.1332538498289,
+    "count": 9,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.074419
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.015134
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.062176
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.870217
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.004223
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      32.687830212222224,
+      -96.80128625
+    ]
+  },
+  "cluster30": {
+    "inertia": 833.9676304415987,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.054965
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.057601
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.070131
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.845983
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.049751
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      43.810099364,
+      -74.128590104
+    ]
+  },
+  "cluster35": {
+    "inertia": 2153.340004053622,
+    "count": 9,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.264948
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.022832
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.623235
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.130486
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.041441
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      47.24376712222222,
+      -121.93591193333333
+    ]
+  },
+  "cluster5": {
+    "inertia": 2320.85420074373,
+    "count": 13,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.043075
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.019701
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.009444
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.9306
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.029453
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      42.66334489538462,
+      -83.57271731538461
+    ]
+  },
+  "cluster20": {
+    "inertia": 2472.1063114722488,
+    "count": 15,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.035932
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.002404
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.021584
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.918742
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.039836
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      39.57674837333333,
+      -76.95883332933333
+    ]
+  },
+  "cluster7": {
+    "inertia": 1434.0796350253206,
+    "count": 7,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.051833
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.014759
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.036098
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.918408
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.005512
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      39.98148775285714,
+      -104.8822612
+    ]
+  },
+  "cluster36": {
+    "inertia": 215.87322036971017,
+    "count": 1,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.063577
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.006368
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.30524
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.654713
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.028588
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      40.698768,
+      -111.94665
+    ]
+  },
+  "cluster9": {
+    "inertia": 428.2582544091374,
+    "count": 2,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.034338
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.032312
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.07193
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.857123
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.057786
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      36.19310097,
+      -115.219056925
+    ]
+  },
+  "cluster39": {
+    "inertia": 895.7704406659337,
+    "count": 5,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.02524
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.007523
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.174062
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.794415
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.021693
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      34.267125304000004,
+      -92.411476458
+    ]
+  },
+  "cluster31": {
+    "inertia": 1675.7032737471422,
+    "count": 9,
+    "emotion": {
+      "document_tone": {
+        "tone_categories": [
+          {
+            "category_id": "emotion_tone",
+            "tones": [
+              {
+                "tone_name": "Anger",
+                "tone_id": "anger",
+                "score": 0.039109
+              },
+              {
+                "tone_name": "Disgust",
+                "tone_id": "disgust",
+                "score": 0.00187
+              },
+              {
+                "tone_name": "Fear",
+                "tone_id": "fear",
+                "score": 0.029966
+              },
+              {
+                "tone_name": "Joy",
+                "tone_id": "joy",
+                "score": 0.929927
+              },
+              {
+                "tone_name": "Sadness",
+                "tone_id": "sadness",
+                "score": 0.008455
+              }
+            ],
+            "category_name": "Emotion Tone"
+          }
+        ]
+      }
+    },
+    "location": [
+      38.337005062222225,
+      -93.31684900333333
+    ]
+  }
+}

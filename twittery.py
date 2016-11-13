@@ -11,33 +11,33 @@ tone_analyzer = ToneAnalyzerV3(
         username='fae1b7aa-7534-4fda-b5d1-775076ca668c',
         password='TbzeEoT4cxHi',
         version='2016-05-19')
-def main():
-    f = open('clusters.txt', 'w')
-    r = api.request('statuses/filter', {'locations':'-124.848974,24.396308, -66.885444,49.384358'}).get_iterator()
-    tweet = []
-    interval = 5*60
-    start_time = time.time()
-    n = 1
-    while n < 500:
-        item = next(r)
-        if 'text' in item:
-            if item['coordinates'] != None:
-                new_item = [item['text'], item['coordinates']['coordinates']]
-                tweet.append(new_item)
-                print(new_item)
-        n += 1
-        print(n)
-    tweet_locations = locations(tweet)
-    clusters = cluster(tweet_locations, 8)
-    cluster_text = combine_text(tweet,clusters)
-    for loc, text in cluster_text.items():
-        f.write('CLUSTER\n')
-        f.write('-------\n')
-        f.write(str(loc) + '\n')
-        f.write('\n')
-        f.write(text)
-        f.write('\n')
-    f.close()    
+# def main():
+#     f = open('clusters.txt', 'w')
+#     r = api.request('statuses/filter', {'locations':'-124.848974,24.396308, -66.885444,49.384358'}).get_iterator()
+#     tweet = []
+#     interval = 5*60
+#     start_time = time.time()
+#     n = 1
+#     while n < 500:
+#         item = next(r)
+#         if 'text' in item:
+#             if item['coordinates'] != None:
+#                 new_item = [item['text'], item['coordinates']['coordinates']]
+#                 tweet.append(new_item)
+#                 print(new_item)
+#         n += 1
+#         print(n)
+#     tweet_locations = locations(tweet)
+#     clusters = cluster(tweet_locations, 8)
+#     cluster_text = combine_text(tweet,clusters)
+#     for loc, text in cluster_text.items():
+#         f.write('CLUSTER\n')
+#         f.write('-------\n')
+#         f.write(str(loc) + '\n')
+#         f.write('\n')
+#         f.write(text)
+#         f.write('\n')
+#     f.close()    
 def watson_clusters(topic):
     api = TwitterAPI("pGb1oXyiZIEdQcDTN9a3d558P", "JmDv2GkfJU5jEUvLLcdMMxs9Jt9xVvHzDeRlAcgpGVURCllfYS", "4213484361-cUiKplc8SVdYkKvx6CrUFBHGzAFlyaHNJBbLHZ6", "f767WjWbFTd0BzQyPChICAfc9rIvxDIJmWlxTD3sfTnov")
     r = api.request('statuses/filter', {'locations':'-124.848974,24.396308, -66.885444,49.384358', 'q': topic}).get_iterator()
@@ -86,11 +86,14 @@ def watsonize(cluster_text):
         username='fae1b7aa-7534-4fda-b5d1-775076ca668c',
         password='TbzeEoT4cxHi',
         version='2016-05-19')
+    final_clusters = {}
+    i = 1
     for center, data in cluster_text.items():
         s = data['string']
         emotion_data = tone_analyzer.tone(text = s, tones = 'emotion', sentences = False)
-        data['emotion'] = emotion_data
-    return cluster_text
+        final_clusters['cluster'+str(i)] = {'location': center, 'count': data['count'], 'emotion': emotion_data, 'inertia': data['inertia']}
+        i += 1
+    return final_clusters
 
 
 
@@ -140,4 +143,7 @@ def distance(x, y):
 
 #while True:
 #main()
-#watson_clusters('pokemon')
+# clusterz = watson_clusters('lol')
+# sample_json = open('sample_json.txt', 'w')
+# sample_json.write(json.dumps(clusterz, indent = 2))
+# sample_json.close()
