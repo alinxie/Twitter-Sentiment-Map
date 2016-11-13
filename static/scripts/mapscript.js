@@ -25,11 +25,11 @@ var actualRadius = 0;
 
 // console.log("saving radius of " + document.getElementById('radius').value);
 
-  if (document.getElementById('radius') !== null) {
-    actualRadius = document.getElementById('radius').value;
-  }
+  // if (document.getElementById('radius') !== null) {
+  //   actualRadius = document.getElementById('radius').value;
+  // }
 
-var map;
+
 
 function initMap() {
   // Create the map.
@@ -45,7 +45,7 @@ function initMap() {
     }],
               {name:'Styled Map'}
   );
-  map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 4,
     center: {lat: 37.090, lng: -95.712},
     mapTypeId: 'styled_map'
@@ -57,6 +57,17 @@ function initMap() {
   google.maps.event.addListener(map, 'click', function(event) {
    placeMarker(event.latLng);
   });
+  google.maps.event.addListener(map, 'idle', function() {
+         clusters = loadClusters();
+         for (var i = 0; i < clusters.length; i ++) {
+            var currCluster = clusters[i];
+            var location = currCluster.location;
+            var latlng = new google.maps.LatLng(location[0], location[1]);
+            var marker = new google.maps.Marker({
+            position: latlng,
+          });
+      }
+    });
   var currMarker = null;
   var currCircle = null;
   function placeMarker(location) {
