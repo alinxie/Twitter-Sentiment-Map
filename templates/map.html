@@ -19,12 +19,13 @@
 		<input type="submit" value="Submit">
 	</form> -->
   <div id = 'map'></div>
+	  <p id = "clustersHTML">{{clusters}}</p>
   <script src = "{{ url_for('static', filename='scripts/mapscript.js') }}">
-  	function loadClusters() {
+  	/*function loadClusters() {
   		return {{ clusters|tojson|safe }};
-  	}
+  	}*/
   </script>
-  <p>{{clusters}}</p>
+
 </body>
 
 </html>

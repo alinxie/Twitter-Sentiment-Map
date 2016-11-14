@@ -58,7 +58,7 @@ function initMap() {
    placeMarker(event.latLng);
   });
   google.maps.event.addListener(map, 'idle', function() {
-         var clusters = loadClusters();
+         console.log("clusters are " + document.getElementById('clustersHTML').value;
          for (var i = 0; i < clusters.length; i ++) {
             var currCluster = clusters[i];
             var location = currCluster.location;
